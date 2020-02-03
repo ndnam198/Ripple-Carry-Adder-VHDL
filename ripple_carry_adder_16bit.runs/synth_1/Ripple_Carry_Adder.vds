@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Jul 22 23:24:54 2019
+# Process ID: 11652
+# Current directory: A:/Documents/code/VivadoLab/ripple_carry_adder_16bit/ripple_carry_adder_16bit.runs/synth_1
+# Command line: vivado.exe -log Ripple_Carry_Adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ripple_Carry_Adder.tcl
+# Log file: A:/Documents/code/VivadoLab/ripple_carry_adder_16bit/ripple_carry_adder_16bit.runs/synth_1/Ripple_Carry_Adder.vds
+# Journal file: A:/Documents/code/VivadoLab/ripple_carry_adder_16bit/ripple_carry_adder_16bit.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Ripple_Carry_Adder.tcl -notrace
+Command: synth_design -top Ripple_Carry_Adder -part xczu9eg-ffvb1156-2-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu9eg-ffvb1156'
+WARNING: [Common 17-348] Failed to get the license for feature 'Synthesis' and/or device 'xczu9eg-ffvb1156'. Explanation: The license feature Synthesis could not be found.
+Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "Licensing FAQ". 
+0 Infos, 1 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-345] A valid license was not found for feature 'Synthesis' and/or device 'xczu9eg-ffvb1156'. Please run the Vivado License Manager for assistance in determining
+which features and devices are licensed for your system.
+Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "Licensing FAQ". 
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 22 23:25:18 2019...

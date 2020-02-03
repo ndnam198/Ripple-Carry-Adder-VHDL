@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xczu9eg-ffvb1156-2-i" LaunchTime="1563812685">
+  <File Type="PA-TCL" Name="Ripple_Carry_Adder.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Ripple_Carry_Adder_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="Ripple_Carry_Adder.vds"/>
+  <File Type="RDS-UTIL" Name="Ripple_Carry_Adder_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Ripple_Carry_Adder_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Ripple_Carry_Adder.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Ripple_Carry_Adder_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Ripple_Carry_Adder_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Ripple_Carry_Adder_16bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Ripple_Carry_Adder"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

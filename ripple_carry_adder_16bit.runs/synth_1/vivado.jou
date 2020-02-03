@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Jul 22 23:24:54 2019
+# Process ID: 11652
+# Current directory: A:/Documents/code/VivadoLab/ripple_carry_adder_16bit/ripple_carry_adder_16bit.runs/synth_1
+# Command line: vivado.exe -log Ripple_Carry_Adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ripple_Carry_Adder.tcl
+# Log file: A:/Documents/code/VivadoLab/ripple_carry_adder_16bit/ripple_carry_adder_16bit.runs/synth_1/Ripple_Carry_Adder.vds
+# Journal file: A:/Documents/code/VivadoLab/ripple_carry_adder_16bit/ripple_carry_adder_16bit.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Ripple_Carry_Adder.tcl -notrace

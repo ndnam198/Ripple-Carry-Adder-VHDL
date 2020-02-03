@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "A:/Documents/code/VivadoLab/ripple_carry_adder_16bit/ripple_carry_adder_16bit.srcs/sources_1/new/Ripple_Carry_Adder_16bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity full_adder
+INFO: [VRFC 10-307] analyzing entity Ripple_Carry_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "A:/Documents/code/VivadoLab/ripple_carry_adder_16bit/ripple_carry_adder_16bit.srcs/sim_1/new/ripple_carry_adder_16bit_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Tb_Ripple_Adder

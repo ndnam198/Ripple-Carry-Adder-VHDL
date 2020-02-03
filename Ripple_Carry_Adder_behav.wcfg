@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Tb_Ripple_Adder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Tb_Ripple_Adder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1182821951fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="89"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/Tb_Ripple_Adder/A" type="array">
+      <obj_property name="ElementShortName">A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">A[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Ripple_Adder/B" type="array">
+      <obj_property name="ElementShortName">B[15:0]</obj_property>
+      <obj_property name="ObjectShortName">B[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Ripple_Adder/Cin" type="logic">
+      <obj_property name="ElementShortName">Cin</obj_property>
+      <obj_property name="ObjectShortName">Cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Ripple_Adder/S" type="array">
+      <obj_property name="ElementShortName">S[15:0]</obj_property>
+      <obj_property name="ObjectShortName">S[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Ripple_Adder/Cout" type="logic">
+      <obj_property name="ElementShortName">Cout</obj_property>
+      <obj_property name="ObjectShortName">Cout</obj_property>
+   </wvobject>
+</wave_config>
